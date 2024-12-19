@@ -5,7 +5,7 @@ See: https://github.com/sigstore/sigstore/pull/1901
 
 It basically imports the existing GCP KMS code, but you will build this as a plugin binary.
 
-Example:
+Example, with the pending https://github.com/sigstore/cosign/pull/3954 and https://github.com/sigstore/sigstore/pull/1901:
 
 ```shell
 # Compile the plugin program, adding it to PATH
